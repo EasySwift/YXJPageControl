@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                         超级好用的倒计时Button
                        DESC
   s.homepage         = "https://github.com/stubbornnessness"
-  s.screenshots      = "http://120.27.93.73/files/myPublicProject/YXJPageController1.gif"
+  s.screenshots      = "http://120.27.93.73/files/myPublicProject/YXJPageController1.png"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "stubbornness1219" => "18223847097@163.com" }
-  s.source           = { :git => "https://github.com/EasySwift/YXJPageController.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/EasySwift/YXJPageControl.git", :tag => s.version.to_s }
   # s.source           = { :git => "/Users/yxj/Documents/YXJPageController"}
   # s.social_media_url = 'https://twitter.com/yxj'
   s.platform     = :ios
