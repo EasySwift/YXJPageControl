@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BAD0568611D49A895ADDABC6CCE478B0E8C4BB6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B6C656549497E7F573B7B21FDCB0353CCFAD622E" : 0,
+    "BAD0568611D49A895ADDABC6CCE478B0E8C4BB6C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F10F89F1-DF2C-461A-972F-F6E0F92167E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B6C656549497E7F573B7B21FDCB0353CCFAD622E" : "YXJPageControl\/YXJPageController\/YXJPageController\/NetBeansWorkSpace\/xianJianServer\/",
+    "BAD0568611D49A895ADDABC6CCE478B0E8C4BB6C" : "YXJPageControl\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YXJPageControllerTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YXJPageController\/YXJPageControllerTest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/18223847097%2540163.com@git.oschina.net\/stubbornness1\/xianJianServer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6C656549497E7F573B7B21FDCB0353CCFAD622E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EasySwift\/YXJPageControl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAD0568611D49A895ADDABC6CCE478B0E8C4BB6C"
+    }
+  ]
+}
