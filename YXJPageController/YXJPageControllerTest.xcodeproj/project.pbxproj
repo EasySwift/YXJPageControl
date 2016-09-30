@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		067705D322D4B7CC38B1E18E /* Pods_YXJPageControllerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6E1BAA8223611F4FF69096 /* Pods_YXJPageControllerTest.framework */; };
 		DE3CC6931D5C355F00344B61 /* YXJPageController1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE3CC6921D5C355F00344B61 /* YXJPageController1.png */; };
+		DEC9D0EA1D9EC05500CE7C48 /* YXJPageController ios.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D0E81D9EC05500CE7C48 /* YXJPageController ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D0ED1D9EC05500CE7C48 /* YXJPageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC9D0E61D9EC05500CE7C48 /* YXJPageController.framework */; };
+		DEC9D0EE1D9EC05500CE7C48 /* YXJPageController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEC9D0E61D9EC05500CE7C48 /* YXJPageController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEC9D10B1D9EC21500CE7C48 /* YXJAbstractDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D1031D9EC21500CE7C48 /* YXJAbstractDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D10C1D9EC21500CE7C48 /* YXJAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D1041D9EC21500CE7C48 /* YXJAbstractDotView.m */; };
+		DEC9D10D1D9EC21500CE7C48 /* YXJAnimatedDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D1051D9EC21500CE7C48 /* YXJAnimatedDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D10E1D9EC21500CE7C48 /* YXJAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D1061D9EC21500CE7C48 /* YXJAnimatedDotView.m */; };
+		DEC9D10F1D9EC21500CE7C48 /* YXJDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D1071D9EC21500CE7C48 /* YXJDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D1101D9EC21500CE7C48 /* YXJDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D1081D9EC21500CE7C48 /* YXJDotView.m */; };
+		DEC9D1111D9EC21500CE7C48 /* YXJPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC9D1091D9EC21500CE7C48 /* YXJPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC9D1121D9EC21500CE7C48 /* YXJPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9D10A1D9EC21500CE7C48 /* YXJPageControl.m */; };
 		DED5D5AD1D5BAE3C005A7F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5D5AC1D5BAE3C005A7F67 /* AppDelegate.swift */; };
 		DED5D5AF1D5BAE3C005A7F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5D5AE1D5BAE3C005A7F67 /* ViewController.swift */; };
 		DED5D5B21D5BAE3C005A7F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED5D5B01D5BAE3C005A7F67 /* Main.storyboard */; };
@@ -21,11 +32,46 @@
 		DEF5AB6F1D5C2E8900C3FB0F /* DIYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5AB6E1D5C2E8900C3FB0F /* DIYPageView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DEC9D0EB1D9EC05500CE7C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED5D5A11D5BAE3C005A7F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC9D0E51D9EC05500CE7C48;
+			remoteInfo = "YXJPageController ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEC9D0F21D9EC05500CE7C48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DEC9D0EE1D9EC05500CE7C48 /* YXJPageController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0940C0173AF63F53E74C5FAA /* Pods-YXJPageControllerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJPageControllerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXJPageControllerTest/Pods-YXJPageControllerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		3C6E1BAA8223611F4FF69096 /* Pods_YXJPageControllerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJPageControllerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC99AB644FABE833AA86578 /* Pods-YXJPageControllerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJPageControllerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXJPageControllerTest/Pods-YXJPageControllerTest.release.xcconfig"; sourceTree = "<group>"; };
 		DE3CC6921D5C355F00344B61 /* YXJPageController1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YXJPageController1.png; sourceTree = "<group>"; };
+		DEC9D0E61D9EC05500CE7C48 /* YXJPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YXJPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC9D0E81D9EC05500CE7C48 /* YXJPageController ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXJPageController ios.h"; sourceTree = "<group>"; };
+		DEC9D0E91D9EC05500CE7C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC9D1031D9EC21500CE7C48 /* YXJAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJAbstractDotView.h; sourceTree = "<group>"; };
+		DEC9D1041D9EC21500CE7C48 /* YXJAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJAbstractDotView.m; sourceTree = "<group>"; };
+		DEC9D1051D9EC21500CE7C48 /* YXJAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJAnimatedDotView.h; sourceTree = "<group>"; };
+		DEC9D1061D9EC21500CE7C48 /* YXJAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJAnimatedDotView.m; sourceTree = "<group>"; };
+		DEC9D1071D9EC21500CE7C48 /* YXJDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJDotView.h; sourceTree = "<group>"; };
+		DEC9D1081D9EC21500CE7C48 /* YXJDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJDotView.m; sourceTree = "<group>"; };
+		DEC9D1091D9EC21500CE7C48 /* YXJPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJPageControl.h; sourceTree = "<group>"; };
+		DEC9D10A1D9EC21500CE7C48 /* YXJPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJPageControl.m; sourceTree = "<group>"; };
 		DED5D5A91D5BAE3C005A7F67 /* YXJPageControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJPageControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED5D5AC1D5BAE3C005A7F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED5D5AE1D5BAE3C005A7F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,10 +87,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DEC9D0E21D9EC05500CE7C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED5D5A61D5BAE3C005A7F67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC9D0ED1D9EC05500CE7C48 /* YXJPageController.framework in Frameworks */,
 				067705D322D4B7CC38B1E18E /* Pods_YXJPageControllerTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,10 +123,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DEC9D0E71D9EC05500CE7C48 /* YXJPageController ios */ = {
+			isa = PBXGroup;
+			children = (
+				DEC9D0E81D9EC05500CE7C48 /* YXJPageController ios.h */,
+				DEC9D0E91D9EC05500CE7C48 /* Info.plist */,
+				DEC9D1031D9EC21500CE7C48 /* YXJAbstractDotView.h */,
+				DEC9D1041D9EC21500CE7C48 /* YXJAbstractDotView.m */,
+				DEC9D1051D9EC21500CE7C48 /* YXJAnimatedDotView.h */,
+				DEC9D1061D9EC21500CE7C48 /* YXJAnimatedDotView.m */,
+				DEC9D1071D9EC21500CE7C48 /* YXJDotView.h */,
+				DEC9D1081D9EC21500CE7C48 /* YXJDotView.m */,
+				DEC9D1091D9EC21500CE7C48 /* YXJPageControl.h */,
+				DEC9D10A1D9EC21500CE7C48 /* YXJPageControl.m */,
+			);
+			path = "YXJPageController ios";
+			sourceTree = "<group>";
+		};
 		DED5D5A01D5BAE3C005A7F67 = {
 			isa = PBXGroup;
 			children = (
 				DED5D5AB1D5BAE3C005A7F67 /* YXJPageController */,
+				DEC9D0E71D9EC05500CE7C48 /* YXJPageController ios */,
 				DED5D5AA1D5BAE3C005A7F67 /* Products */,
 				5B034A41AC2312CAFF2EC238 /* Pods */,
 				400E7F7CC1AF722F937674F9 /* Frameworks */,
@@ -83,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				DED5D5A91D5BAE3C005A7F67 /* YXJPageControllerTest.app */,
+				DEC9D0E61D9EC05500CE7C48 /* YXJPageController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +189,40 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DEC9D0E31D9EC05500CE7C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC9D0EA1D9EC05500CE7C48 /* YXJPageController ios.h in Headers */,
+				DEC9D10D1D9EC21500CE7C48 /* YXJAnimatedDotView.h in Headers */,
+				DEC9D1111D9EC21500CE7C48 /* YXJPageControl.h in Headers */,
+				DEC9D10B1D9EC21500CE7C48 /* YXJAbstractDotView.h in Headers */,
+				DEC9D10F1D9EC21500CE7C48 /* YXJDotView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DEC9D0E51D9EC05500CE7C48 /* YXJPageController ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC9D0F11D9EC05500CE7C48 /* Build configuration list for PBXNativeTarget "YXJPageController ios" */;
+			buildPhases = (
+				DEC9D0E11D9EC05500CE7C48 /* Sources */,
+				DEC9D0E21D9EC05500CE7C48 /* Frameworks */,
+				DEC9D0E31D9EC05500CE7C48 /* Headers */,
+				DEC9D0E41D9EC05500CE7C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YXJPageController ios";
+			productName = "YXJPageController ios";
+			productReference = DEC9D0E61D9EC05500CE7C48 /* YXJPageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DED5D5A81D5BAE3C005A7F67 /* YXJPageControllerTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED5D5BB1D5BAE3C005A7F67 /* Build configuration list for PBXNativeTarget "YXJPageControllerTest" */;
@@ -127,10 +233,12 @@
 				DED5D5A71D5BAE3C005A7F67 /* Resources */,
 				25F4D5AF5B9207D342078567 /* [CP] Embed Pods Frameworks */,
 				A99AF7915D258ABD92876296 /* [CP] Copy Pods Resources */,
+				DEC9D0F21D9EC05500CE7C48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEC9D0EC1D9EC05500CE7C48 /* PBXTargetDependency */,
 			);
 			name = YXJPageControllerTest;
 			productName = YXJPageController;
@@ -144,11 +252,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "袁晓钧";
 				TargetAttributes = {
+					DEC9D0E51D9EC05500CE7C48 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					DED5D5A81D5BAE3C005A7F67 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -166,11 +279,19 @@
 			projectRoot = "";
 			targets = (
 				DED5D5A81D5BAE3C005A7F67 /* YXJPageControllerTest */,
+				DEC9D0E51D9EC05500CE7C48 /* YXJPageController ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DEC9D0E41D9EC05500CE7C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED5D5A71D5BAE3C005A7F67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +358,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DEC9D0E11D9EC05500CE7C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC9D1121D9EC21500CE7C48 /* YXJPageControl.m in Sources */,
+				DEC9D10C1D9EC21500CE7C48 /* YXJAbstractDotView.m in Sources */,
+				DEC9D1101D9EC21500CE7C48 /* YXJDotView.m in Sources */,
+				DEC9D10E1D9EC21500CE7C48 /* YXJAnimatedDotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED5D5A51D5BAE3C005A7F67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +380,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC9D0EC1D9EC05500CE7C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC9D0E51D9EC05500CE7C48 /* YXJPageController ios */;
+			targetProxy = DEC9D0EB1D9EC05500CE7C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DED5D5B01D5BAE3C005A7F67 /* Main.storyboard */ = {
@@ -269,6 +409,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DEC9D0EF1D9EC05500CE7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "YXJPageController ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJPageController-ios";
+				PRODUCT_MODULE_NAME = YXJPageController;
+				PRODUCT_NAME = YXJPageController;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEC9D0F01D9EC05500CE7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "YXJPageController ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJPageController-ios";
+				PRODUCT_MODULE_NAME = YXJPageController;
+				PRODUCT_NAME = YXJPageController;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DED5D5B91D5BAE3C005A7F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,8 +476,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -328,8 +523,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -348,6 +545,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -361,6 +559,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPageController;
 				PRODUCT_NAME = YXJPageControllerTest;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -373,12 +572,21 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJPageController;
 				PRODUCT_NAME = YXJPageControllerTest;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DEC9D0F11D9EC05500CE7C48 /* Build configuration list for PBXNativeTarget "YXJPageController ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC9D0EF1D9EC05500CE7C48 /* Debug */,
+				DEC9D0F01D9EC05500CE7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DED5D5A41D5BAE3C005A7F67 /* Build configuration list for PBXProject "YXJPageControllerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -13,20 +13,20 @@ class DIYPageView: YXJAbstractDotView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.blueColor()
+        self.backgroundColor = UIColor.blue
     }
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        self.backgroundColor = UIColor.blueColor()
+        self.backgroundColor = UIColor.blue
     }
 
-    override func changeActivityState(active: Bool) {
+    override func changeActivityState(_ active: Bool) {
         if active == true {
-            self.backgroundColor = UIColor.redColor()
+            self.backgroundColor = UIColor.red
         } else {
-            self.backgroundColor = UIColor.blueColor()
+            self.backgroundColor = UIColor.blue
         }
     }
 
